@@ -1,0 +1,28 @@
+Analyzing source_code...                                        
+
+   info - The variable name 'this_year' isn't a lowerCamelCase identifier - lib\app_config.dart:1:5 - non_constant_identifier_names
+   info - The variable name 'copyright_text' isn't a lowerCamelCase identifier - lib\app_config.dart:5:17 - non_constant_identifier_names
+   info - The variable name 'app_name' isn't a lowerCamelCase identifier - lib\app_config.dart:7:17 - non_constant_identifier_names
+   info - The variable name 'search_bar_text' isn't a lowerCamelCase identifier - lib\app_config.dart:9:17 - non_constant_identifier_names
+   info - The variable name 'purchase_code' isn't a lowerCamelCase identifier - lib\app_config.dart:11:17 - non_constant_identifier_names
+   info - The variable name 'system_key' isn't a lowerCamelCase identifier - lib\app_config.dart:13:17 - non_constant_identifier_names
+   info - The variable name 'default_language' isn't a lowerCamelCase identifier - lib\app_config.dart:17:17 - non_constant_identifier_names
+   info - The variable name 'mobile_app_code' isn't a lowerCamelCase identifier - lib\app_config.dart:18:17 - non_constant_identifier_names
+   info - The variable name 'app_language_rtl' isn't a lowerCamelCase identifier - lib\app_config.dart:19:15 - non_constant_identifier_names
+   info - The constant name 'HTTPS' isn't a lowerCamelCase identifier - lib\app_config.dart:21:21 - constant_identifier_names
+   info - The constant name 'DOMAIN_PATH' isn't a lowerCamelCase identifier - lib\app_config.dart:23:16 - constant_identifier_names
+   info - The constant name 'API_ENDPATH' isn't a lowerCamelCase identifier - lib\app_config.dart:26:23 - constant_identifier_names
+   info - The constant name 'PROTOCOL' isn't a lowerCamelCase identifier - lib\app_config.dart:27:23 - constant_identifier_names
+   info - The constant name 'RAW_BASE_URL' isn't a lowerCamelCase identifier - lib\app_config.dart:28:23 - constant_identifier_names
+   info - The constant name 'BASE_URL' isn't a lowerCamelCase identifier - lib\app_config.dart:29:23 - constant_identifier_names
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\custom\cart_seller_item_card_widget.dart:65:45 - deprecated_member_use
+   info - The import of 'package:flutter/cupertino.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\custom\dash_divider.dart:1:8 - unnecessary_import
+   info - The import of 'package:flutter/foundation.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\presenter\home_presenter.dart:13:8 - unnecessary_import
+   info - The variable name 'current_slider' isn't a lowerCamelCase identifier - lib\presenter\home_presenter.dart:19:7 - non_constant_identifier_names
+   info - The variable name 'pirated_logo_controller' isn't a lowerCamelCase identifier - lib\presenter\home_presenter.dart:25:28 - non_constant_identifier_names
+   info - The variable name 'pirated_logo_animation' isn't a lowerCamelCase identifier - lib\presenter\home_presenter.dart:26:26 - non_constant_identifier_names
+   info - Don't invoke 'print' in production code - lib\repositories\order_repository.dart:51:5 - avoid_print
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\blog_list_screen.dart:225:48 - deprecated_member_use
+   info - 'withOpacity' is deprecated and shouldn't be used. Use .withValues() to avoid precision loss - lib\screens\blog_list_screen.dart:226:48 - deprecated_member_use
+   info - The import of 'package:flutter/cupertino.dart' is unnecessary because all of the used elements are also provided by the import of 'package:flutter/material.dart' - lib\screens\product\product_details\widget_for_product_details\product_media_slider.dart:3:8 - unnecessary_import
+

@@ -1,0 +1,1 @@
+INFO|LINT|USE_BUILD_CONTEXT_SYNCHRONOUSLY|C:\\Users\\Antoine\\3D Objects\\projet\\active\\app\\codecanyon-active-ecommerce-flutter-app\\source_code\\lib\\providers\\checkout_provider.dart|970|7|16|Don't use 'BuildContext's across async gaps.
