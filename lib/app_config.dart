@@ -6,13 +6,13 @@ class AppConfig {
   //configure this
   static String copyright_text =
       "© eden $this_year"; //this shows in the splash screen
-  static String app_name = "eden"; //this shows in the splash screen
+  static String app_name = "EDEN STORE"; //this shows in the splash screen
   static String search_bar_text =
       "Search in eden..."; //this will show in app Search bar.
   static String purchase_code =
-      "your_purchase_code"; //enter your purchase code for the app from codecanyon
+      "MERCA-1234-5678-DEMO"; //enter your purchase code for the app from codecanyon
   static String system_key =
-      r"your_system_key"; //enter your purchase code for the app from codecanyon
+      r"MERCA_DEMO_KEY_2026"; //enter your purchase code for the app from codecanyon
 
   //Default language config
   static String default_language = "en";

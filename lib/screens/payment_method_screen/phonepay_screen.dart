@@ -83,7 +83,7 @@ class _PhonePeScreenState extends State<PhonePeScreen> {
         headers: {
           "Accept": "application/json",
           "Authorization": "Bearer $accessToken",
-          "System-key": AppConfig.system_key,
+          "System-Key": AppConfig.system_key,
         },
       );
 
@@ -142,7 +142,7 @@ class _PhonePeScreenState extends State<PhonePeScreen> {
           "Accept": "application/json",
           "Content-Type": "application/json",
           "Authorization": "Bearer $accessToken",
-          "System-key": AppConfig.system_key,
+          "System-Key": AppConfig.system_key,
         },
         body: jsonEncode(paymentPayload),
       );
@@ -236,6 +236,7 @@ class _PhonePeScreenState extends State<PhonePeScreen> {
           "Accept": "application/json",
           "Content-Type": "application/json",
           "Authorization": "Bearer $accessToken",
+          "System-Key": AppConfig.system_key,
         },
         body: jsonEncode({"response": encodedPayload}),
       );

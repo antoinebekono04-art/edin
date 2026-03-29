@@ -1,5 +1,6 @@
 import 'package:eden/app_config.dart';
 import 'package:eden/custom/device_info.dart';
+import 'package:eden/helpers/shared_value_helper.dart';
 import 'package:flutter/material.dart';
 import 'package:webview_flutter/webview_flutter.dart';
 
@@ -56,7 +57,13 @@ class _CaptchaState extends State<Captcha> {
           }
         },
       )
-      ..loadRequest(recaptchaUrl);
+      ..loadRequest(
+        recaptchaUrl,
+        headers: {
+          "App-Language": app_language.$ ?? 'en',
+          "System-Key": AppConfig.system_key,
+        },
+      );
   }
 
   @override
